@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    /*Sirve para que el tamaño de los div no se modifique con los margin ni padding*/
+    font-size: 62.5%;
+    /* 1REM = 10px */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /*fuente del proyecto*/
+    font-size: 1.6rem;
+    line-height: 2;
+    /*el interneado entre las frases*/
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*Estilos adicionales del header y nav*/
+
+.titulo-pagina span {
+    color: #037bc0;
+}
+
+.Menu {
+    border-top: #e1e1e1 solid 0.1rem;
+}
+
+
+/*Estilos adicionales del header y nav*/
+
+.Hero {
+    background-image: url(../img/principal.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 55rem;
+}
+
+
+/*Seccion de productos*/
+
+.Seccion-categoria {
+    margin-top: 3rem;
+}
+
+.categoria {
+    margin-top: 2rem;
+}
+
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 1rem;
+}
+
+
+/*Sobre nosotros*/
+
+.nosotros {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    margin: 5rem 0;
+}
+
+.nosotros-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto {
+    flex-basis: 50%;
+    padding-left: 3rem;
+    color: #fff;
+}
