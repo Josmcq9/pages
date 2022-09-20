@@ -1,0 +1,42 @@
+/*CSS GLOBALES*/
+
+.titulo-pagina {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion {
+    text-align: center;
+}
+
+.explicacion {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    border: solid 2px red;
+}
+
+.explicacion .ej-hover:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.ej-hijos p:first-child {
+    color: red;
+}
+
+.ej-hijos p:nth-child(2) {
+    color: aquamarine;
+}
+
+.ej-hijos p:nth-child(3) {
+    color: green;
+}
+
+.ej-hijos p:last-child {
+    color: greenyellow;
+}
+
+
+/*seccion de los speudo-codigos*/
